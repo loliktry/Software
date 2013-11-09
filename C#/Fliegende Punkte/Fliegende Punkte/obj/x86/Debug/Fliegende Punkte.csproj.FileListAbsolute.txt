@@ -1,0 +1,22 @@
+C:\Users\Daniel\AppData\Local\Temporary Projects\Fliegende Punkte\bin\Debug\Fliegende Punkte.exe
+C:\Users\Daniel\AppData\Local\Temporary Projects\Fliegende Punkte\bin\Debug\Fliegende Punkte.pdb
+C:\Users\Daniel\AppData\Local\Temporary Projects\Fliegende Punkte\obj\x86\Debug\MainWindow.baml
+C:\Users\Daniel\AppData\Local\Temporary Projects\Fliegende Punkte\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Daniel\AppData\Local\Temporary Projects\Fliegende Punkte\obj\x86\Debug\App.g.cs
+C:\Users\Daniel\AppData\Local\Temporary Projects\Fliegende Punkte\obj\x86\Debug\Fliegende Punkte_MarkupCompile.cache
+C:\Users\Daniel\AppData\Local\Temporary Projects\Fliegende Punkte\obj\x86\Debug\Fliegende Punkte.g.resources
+C:\Users\Daniel\AppData\Local\Temporary Projects\Fliegende Punkte\obj\x86\Debug\Fliegende_Punkte.Properties.Resources.resources
+C:\Users\Daniel\AppData\Local\Temporary Projects\Fliegende Punkte\obj\x86\Debug\Fliegende Punkte.csproj.GenerateResource.Cache
+C:\Users\Daniel\AppData\Local\Temporary Projects\Fliegende Punkte\obj\x86\Debug\Fliegende Punkte.exe
+C:\Users\Daniel\AppData\Local\Temporary Projects\Fliegende Punkte\obj\x86\Debug\Fliegende Punkte.pdb
+D:\Dropbox\Hobby\Programme\Visual Studio\Fliegende Punkte\Fliegende Punkte\obj\x86\Debug\Fliegende Punkte.exe
+D:\Dropbox\Hobby\Programme\Visual Studio\Fliegende Punkte\Fliegende Punkte\obj\x86\Debug\Fliegende Punkte.pdb
+D:\Dropbox\Hobby\Programme\Visual Studio\Fliegende Punkte\Fliegende Punkte\bin\Debug\Fliegende Punkte.exe
+D:\Dropbox\Hobby\Programme\Visual Studio\Fliegende Punkte\Fliegende Punkte\bin\Debug\Fliegende Punkte.pdb
+D:\Dropbox\Hobby\Programme\Visual Studio\Fliegende Punkte\Fliegende Punkte\obj\x86\Debug\MainWindow.baml
+D:\Dropbox\Hobby\Programme\Visual Studio\Fliegende Punkte\Fliegende Punkte\obj\x86\Debug\MainWindow.g.cs
+D:\Dropbox\Hobby\Programme\Visual Studio\Fliegende Punkte\Fliegende Punkte\obj\x86\Debug\App.g.cs
+D:\Dropbox\Hobby\Programme\Visual Studio\Fliegende Punkte\Fliegende Punkte\obj\x86\Debug\Fliegende Punkte_MarkupCompile.cache
+D:\Dropbox\Hobby\Programme\Visual Studio\Fliegende Punkte\Fliegende Punkte\obj\x86\Debug\Fliegende Punkte.g.resources
+D:\Dropbox\Hobby\Programme\Visual Studio\Fliegende Punkte\Fliegende Punkte\obj\x86\Debug\Fliegende_Punkte.Properties.Resources.resources
+D:\Dropbox\Hobby\Programme\Visual Studio\Fliegende Punkte\Fliegende Punkte\obj\x86\Debug\Fliegende Punkte.csproj.GenerateResource.Cache

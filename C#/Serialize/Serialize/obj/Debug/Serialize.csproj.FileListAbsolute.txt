@@ -1,0 +1,6 @@
+D:\Dropbox\Hobby\Programme\Visual Studio\Serialize\Serialize\bin\Debug\Serialize.exe.config
+D:\Dropbox\Hobby\Programme\Visual Studio\Serialize\Serialize\obj\Debug\Serialize.csprojResolveAssemblyReference.cache
+D:\Dropbox\Hobby\Programme\Visual Studio\Serialize\Serialize\bin\Debug\Serialize.exe
+D:\Dropbox\Hobby\Programme\Visual Studio\Serialize\Serialize\bin\Debug\Serialize.pdb
+D:\Dropbox\Hobby\Programme\Visual Studio\Serialize\Serialize\obj\Debug\Serialize.exe
+D:\Dropbox\Hobby\Programme\Visual Studio\Serialize\Serialize\obj\Debug\Serialize.pdb

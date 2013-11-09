@@ -1,0 +1,5 @@
+D:\Dropbox\Hobby\Programme\Visual Studio\XML Beispiel\XML\bin\Release\XML.exe.config
+D:\Dropbox\Hobby\Programme\Visual Studio\XML Beispiel\XML\bin\Release\XML.exe
+D:\Dropbox\Hobby\Programme\Visual Studio\XML Beispiel\XML\bin\Release\XML.pdb
+D:\Dropbox\Hobby\Programme\Visual Studio\XML Beispiel\XML\obj\Release\XML.exe
+D:\Dropbox\Hobby\Programme\Visual Studio\XML Beispiel\XML\obj\Release\XML.pdb

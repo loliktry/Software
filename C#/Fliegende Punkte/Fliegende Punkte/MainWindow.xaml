@@ -1,0 +1,48 @@
+﻿<Window x:Class="Fliegende_Punkte.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Fliegende Punkte" Height="735" Width="770" Loaded="WindowLoaded" 
+        Icon="Start.ico" Closing="WindowClosing" >
+
+    <Window.Resources>
+        <SolidColorBrush x:Key="MediumGreyBrush" Color="#ff6e6e6e"/>
+        <SolidColorBrush x:Key="KinectPurpleBrush" Color="#ff52318f"/>
+        <SolidColorBrush x:Key="KinectBlueBrush" Color="#ff00BCF2"/>
+    </Window.Resources>
+
+    <Grid Name="layoutGrid" Margin="10 0 10 0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="170*" />
+            <ColumnDefinition Width="558*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <DockPanel Margin="0,0,0,20" Grid.ColumnSpan="2">
+            <TextBlock DockPanel.Dock="Right" Margin="0 0 -1 0" VerticalAlignment="Bottom" Foreground="{StaticResource MediumGreyBrush}" FontFamily="Segoe UI" FontSize="18">Skelett Tracker Basics</TextBlock>
+        </DockPanel>
+        <Viewbox Grid.Row="1" Stretch="Uniform" HorizontalAlignment="Center" Grid.Column="1" Margin="194,0,364,0"></Viewbox>
+        <StatusBar Grid.Row="3" HorizontalAlignment="Stretch" Name="statusBar" VerticalAlignment="Bottom" Background="White" Foreground="{StaticResource MediumGreyBrush}" Grid.ColumnSpan="2">
+            <StatusBarItem Padding="0 0 0 10">
+                <TextBlock Name="statusBarText" Margin="-1 0 0 0"></TextBlock>
+            </StatusBarItem>
+        </StatusBar>
+        <TextBox Grid.Row="1" Height="23" HorizontalAlignment="Left" Margin="155,29,0,0" Name="TextBox_HeadX" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2" />
+        <TextBox Height="23" Name="TextBox_Status" Margin="155,2,453,602" Grid.Row="1" Grid.ColumnSpan="2" />
+        <Label Content="Status" Height="28" HorizontalAlignment="Left" Margin="43,0,0,0" Name="label1" VerticalAlignment="Top" Width="87" HorizontalContentAlignment="Center" Grid.Row="1" />
+        <Label Content="Kopf" Grid.Row="1" Height="28" HorizontalAlignment="Left" Margin="43,27,0,0" Name="label2" VerticalAlignment="Top" Width="87" HorizontalContentAlignment="Center" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="155,87,0,0" Name="TextBox_LeftHandX" VerticalAlignment="Top" Width="120" Grid.Row="1" Grid.ColumnSpan="2" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="155,58,0,0" Name="TextBox_RightHandX" VerticalAlignment="Top" Width="120" Grid.Row="1" Grid.ColumnSpan="2" />
+        <Label Content="Rechte Hand" Height="28" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="43,56,0,0" Name="label3" VerticalAlignment="Top" Width="87" Grid.Row="1" />
+        <Label Content="Linke Hand" Height="28" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="43,85,0,0" Name="label4" VerticalAlignment="Top" Width="87" Grid.Row="1" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="120,29,0,0" Name="TextBox_HeadY" VerticalAlignment="Top" Width="120" Grid.Row="1" Grid.Column="1" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="120,58,0,0" Name="TextBox_RightHandY" VerticalAlignment="Top" Width="120" Grid.Row="1" Grid.Column="1" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="120,87,0,0" Name="TextBox_LeftHandY" VerticalAlignment="Top" Width="120" Grid.Row="1" Grid.Column="1" />
+        <Image Grid.Row="1" Height="478" HorizontalAlignment="Left" Margin="27,119,0,0" Name="Bild" Stretch="Fill" VerticalAlignment="Top" Width="623" Grid.ColumnSpan="2" />
+        <StackPanel Grid.Row="1" Height="478" HorizontalAlignment="Left" Margin="27,119,0,0" Name="myGrid1" VerticalAlignment="Top" Width="623" Grid.ColumnSpan="2"></StackPanel>
+        <StackPanel Name="myGrid2" Margin="27,119,78,6" Grid.ColumnSpan="2" Grid.Row="1" />
+    </Grid>
+</Window>

@@ -1,0 +1,6 @@
+D:\Dropbox\Hobby\Programme\Visual Studio\XML Beispiel\XML\bin\Debug\XML.exe.config
+D:\Dropbox\Hobby\Programme\Visual Studio\XML Beispiel\XML\bin\Debug\XML.exe
+D:\Dropbox\Hobby\Programme\Visual Studio\XML Beispiel\XML\bin\Debug\XML.pdb
+D:\Dropbox\Hobby\Programme\Visual Studio\XML Beispiel\XML\obj\Debug\XML.csprojResolveAssemblyReference.cache
+D:\Dropbox\Hobby\Programme\Visual Studio\XML Beispiel\XML\obj\Debug\XML.exe
+D:\Dropbox\Hobby\Programme\Visual Studio\XML Beispiel\XML\obj\Debug\XML.pdb

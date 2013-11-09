@@ -1,0 +1,6 @@
+D:\Dropbox\Hobby\Programme\Visual Studio\Wave-Reader\Wave-Reader\bin\Debug\Wave-Reader.exe.config
+D:\Dropbox\Hobby\Programme\Visual Studio\Wave-Reader\Wave-Reader\bin\Debug\Wave-Reader.exe
+D:\Dropbox\Hobby\Programme\Visual Studio\Wave-Reader\Wave-Reader\bin\Debug\Wave-Reader.pdb
+D:\Dropbox\Hobby\Programme\Visual Studio\Wave-Reader\Wave-Reader\obj\Debug\Wave-Reader.csprojResolveAssemblyReference.cache
+D:\Dropbox\Hobby\Programme\Visual Studio\Wave-Reader\Wave-Reader\obj\Debug\Wave-Reader.exe
+D:\Dropbox\Hobby\Programme\Visual Studio\Wave-Reader\Wave-Reader\obj\Debug\Wave-Reader.pdb
