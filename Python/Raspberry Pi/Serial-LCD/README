@@ -24,7 +24,7 @@ The Class contains the following Methods:
 		Toggle the Bootinformation of the PIC Mikroprocessor during Power-Up.
 	- SetCursor(CursorPosition)
 		Set the Cursor on the specified Position.
-	- Change Baud(Baud)
+	- ChangeBaud(Baud)
 		Changes the Baudrate of the Module. Possible Values are 2400, 4800, 9600, 19200 and 38400 
 		Baud.
 	- Write(Text)
