@@ -47,7 +47,7 @@ class LCD_Serial:
 			elif(self.Line == 4):
 				self.CharPosition = self.CharPosition + 79
 			else:
-				print("Ungueltige Zeilenangabe!")
+				print("Wrong Number of Columns!")
 				return -1
 
 		elif(self.Zeichen == 20):
@@ -61,7 +61,7 @@ class LCD_Serial:
 			elif(self.Line == 4):
 				self.CharPosition = self.CharPosition + 83
 			else:
-				print("Ungueltige Zeilenangabe!")
+				print("Wrong Number of Rows!")
 				return -1
 
 		else:
@@ -78,7 +78,7 @@ class LCD_Serial:
 
 		# Check Value
 		if(self.Brightness > 30):
-			print("Unguelige Helligkeit")
+			print("Wrong Brightness!")
 			return -1
 
 		self.Brightness = 128 + self.Brightness
@@ -100,7 +100,7 @@ class LCD_Serial:
 			self.UART.write(chr(0xFE))
 			self.UART.write(chr(0x0D))
 		else:
-			print("Ungueltige Cursoreinstelllung!")
+			print("Wrong Cursorsettings!")
 			return -1
 
 	# Activate Underline
@@ -117,7 +117,7 @@ class LCD_Serial:
 			self.UART.write(chr(0xFE))
 			self.UART.write(chr(0x0E))
 		else:
-			print("Ungueltige Cursoreinstelllung!")
+			print("Wrong Cursorsettings!")
 			return -1
 	
 	# Enable Display
@@ -134,7 +134,7 @@ class LCD_Serial:
 			self.UART.write(chr(0xFE))
 			self.UART.write(chr(0x0C))
 		else:
-			print("Ungueltige Cursoreinstelllung!")
+			print("Wrong Cursorsettings!")
 			return -1
 	
 	def SwitchSplash(self):
@@ -174,7 +174,7 @@ class LCD_Serial:
 			self.UART.write(chr(0xFE))
 			self.UART.write(chr(0x10))
 		else:
-			print("Ungueltige Baudrate!")
+			print("Wrong Baudrate!")
 			return -1
 
 	# Write Text
