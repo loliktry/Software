@@ -8,6 +8,8 @@ $ sudo apt-get install python-dev
 $ sudo apt-get install python-serial
 
 The Class contains the following Methods:
+	- Init(Device, Baud, Number of Columns per Line)
+		Initialize the Class with the given Device and Baudrate for a specified LCD.
 	- Clr()
 		Clears the LCD.
 	- Position(Row, Position)
