@@ -1,11 +1,11 @@
-# Klasse fuer das serielle LCD Modul "SerLCD" von Sparkfun
+# Use it with the SerLCD Module from Sparkfun
 # www.kampis-elektroecke.de
 
 import serial
 
 class LCD_Serial:
 	
-	# Konstruktor
+	# Init
 	def __init__(self, device, baudrate, Zeichen):
 	
 		self.device = device
@@ -14,19 +14,19 @@ class LCD_Serial:
 
 		self.UART = serial.Serial(self.device, self.baudrate)
 
-		# Schnittstelle oeffnen
+		# Opening COM-Port
 		if(not(self.UART.isOpen())):
 			self.UART.open()
 
 	def Clr(self):
 
-		# Commandocode
+		# Commandcode
 		self.UART.write(chr(0xFE))
 	
-		# Display loeschen
+		# Reset Display
 		self.UART.write(chr(0x01))
 
-	# Legt die Position des Cursors fest
+	# Sets the Position of the Cursor
 	# Line = 1 - 4
 	# Position = 1 - 20
 	def Position(self, Line, CharPosition):
@@ -34,10 +34,8 @@ class LCD_Serial:
 		self.Line = Line
 		self.CharPosition = CharPosition
 
-		# Commandocode
 		self.UART.write(chr(0xFE))
 	
-		# Auswahl der Zeile
 		if(self.Zeichen == 16):
 
 			if(self.Line == 1):
@@ -70,35 +68,31 @@ class LCD_Serial:
 			print("Ungueltige Zeichenangabe!")
 			return -1
 
-		# Zeile einstellen
 		self.CharPosition = self.CharPosition + 128
 		self.UART.write(chr(self.CharPosition))
 
-	# Einstellen der Helligkeit in 30 Stufen von 1-30
+	# Set the Brightness from 0 to 30
 	def SetBrightness(self, Brightness):
 	
 		self.Brightness = Brightness
 
-		# Wert pruefen
+		# Check Value
 		if(self.Brightness > 30):
 			print("Unguelige Helligkeit")
 			return -1
 
-		# Helligkeitswert berechnen
 		self.Brightness = 128 + self.Brightness
 	
-		# Wert senden
 		self.UART.write(chr(0x7C))
 		self.UART.write(chr(self.Brightness))		
 
-	# Blinkenden Cursor aktivieren
-	# On = Aktiviert
-	# Off = Deaktiviert
+	# Activate blinking Cursor
+	# On = Enable
+	# Off = Disable
 	def EnableBlink(self, Enable):
 	
 		self.Enable = Enable
 
-		# Cursor aktivieren?
 		if(self.Enable == "Off"):
 			self.UART.write(chr(0xFE))
 			self.UART.write(chr(0x0C))
@@ -109,14 +103,13 @@ class LCD_Serial:
 			print("Ungueltige Cursoreinstelllung!")
 			return -1
 
-	# Underline aktivieren
-	# On = Aktiviert
-	# Off = Deaktiviert	
+	# Activate Underline
+	# On = Enable
+	# Off = Disable	
 	def EnableUnderline(self, Enable):
 
 		self.Enable = Enable
 
-		# Unterstrich aktivieren?
 		if(self.Enable == "Off"):
 			self.UART.write(chr(0xFE))
 			self.UART.write(chr(0x0C))
@@ -127,14 +120,13 @@ class LCD_Serial:
 			print("Ungueltige Cursoreinstelllung!")
 			return -1
 	
-	# Display deaktivieren
-	# On = Aktiviert
-	# Off = Deaktiviert	
+	# Enable Display
+	# On = Enable
+	# Off = Disable	
 	def EnableVisual(self, Enable):
 
 		self.Enable = Enable
 		
-		# Display aktivieren / deaktivieren?
 		if(self.Enable == "Off"):
 			self.UART.write(chr(0xFE))
 			self.UART.write(chr(0x08))
@@ -150,16 +142,15 @@ class LCD_Serial:
 		self.UART.write(chr(0x7C))
 		self.UART.write(chr(0x09))
 
-	# Setzt den Cursor an eine bestimmte Position auf dem LCD
+	# Set Cursorposition
 	def SetCursor(self, CursorPosition):
 	
 		self.CursorPosition = 128 + self.CursorPosition + 1
 	
-		# Daten senden
 		self.UART.write(chr(0xFE))
 		self.UART.write(chr(self.CursorPosition))
 	
-	# Aendert die Baudrate des Modules
+	# Change Baud
 	def ChangeBaud(self, Baud):
 	
 		self.Baud = Baud
@@ -186,7 +177,7 @@ class LCD_Serial:
 			print("Ungueltige Baudrate!")
 			return -1
 
-	# Text auf das LCD schreiben
+	# Write Text
 	def Write(self, Text):
 
 		self.Text = Text
