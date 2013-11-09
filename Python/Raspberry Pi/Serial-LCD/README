@@ -1,0 +1,30 @@
+A simple Python Class for a serial-LCD Converter from Sparkfun:
+
+https://www.sparkfun.com/products/258
+
+This class requires the python-serial Module:
+
+$ sudo apt-get install python-dev
+$ sudo apt-get install python-serial
+
+The Class contains the following Methods:
+	- Clr()
+		Clears the LCD.
+	- Position(Row, Position)
+		Places the Cursor at the specified Position.
+	- SetBrightness(Brightness)
+		Set the Brightness of the LCD Backlight. Possible Values are 0 (Off) to 30 (max. Power).
+	- EnableBlink(Enable)
+		Enable (Enable = On) / Disable (Enable = Off) the blinking Cursor.
+	- EnableUnderline(Enable)
+		Enable (Enable = On) / Disable (Enable = Off) underline the Cursor.
+	- EnableVisual(Enable)
+		Enable (Enable = On) / Disable (Enable = Off) the LCD Screen.
+	- SwitchSplash()
+		Toggle the Bootinformation of the PIC Mikroprocessor during Power-Up.
+	- SetCursor(CursorPosition)
+		Set the Cursor on the specified Position.
+	- Change Baud(Baud)
+		Changes the Baudrate of the Module. Possible Values are 2400, 4800, 9600, 19200 and 38400 Baud.
+	- Write(Text)
+		Write the specified Text to the Display
