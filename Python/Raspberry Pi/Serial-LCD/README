@@ -25,6 +25,7 @@ The Class contains the following Methods:
 	- SetCursor(CursorPosition)
 		Set the Cursor on the specified Position.
 	- Change Baud(Baud)
-		Changes the Baudrate of the Module. Possible Values are 2400, 4800, 9600, 19200 and 38400 Baud.
+		Changes the Baudrate of the Module. Possible Values are 2400, 4800, 9600, 19200 and 38400 
+		Baud.
 	- Write(Text)
 		Write the specified Text to the Display
