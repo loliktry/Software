@@ -1,7 +1,7 @@
 from LCD_Serial import LCD_Serial
 import time
 
-# Initialize the Module for an LCD with 20 Columns per Line
+# Initialize the Module for a LCD with 20 Columns per Line
 LCD = LCD_Serial("/dev/ttyAMA0", 9600, 20)
 
 # Delete Display
